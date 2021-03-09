@@ -46,14 +46,11 @@ var timeFrame = [
   hour16,
   hour17,
 ];
-console.log(timeFrame)
 
 //this will change the color of the time blocks
 function buildTimeBlock(hour) {
-  console.log(hour);
   var background = "background-color";
   var currentHour = moment().hours();
-  console.log(currentHour)
   if (currentHour == hour) {
     background = "present";
   } else if (currentHour > hour) {
@@ -66,7 +63,6 @@ function buildTimeBlock(hour) {
 
 function start() { localStorage.getItem
   for (var index = 0; index < timeFrame.length; index++) {
-    console.log(timeFrame[index])
     var element = timeFrame[index];
     var timeString = element.find( ".hour" ).text().trim()
     var backgroundColor = buildTimeBlock(timeString.substring(0,timeString.length-3));
@@ -80,7 +76,6 @@ saveButton.addEventListener("click", function (event) {
   event.preventDefault();
   var HourlyText = []
   for (var index = 0; index < timeFrame.length; index++) {
-    console.log(timeFrame[index])
     var element = timeFrame[index];
     var timeString = element.find( ".hour" ).text().trim()
     HourlyText.push(element.find("textarea").text())

@@ -1,6 +1,10 @@
 # Nate's Work Scheduler
 
+https://github.com/nateskate256/Work-Scheduler
+https://nateskate256.github.io/Work-Scheduler/
+
 <img src="assets/Screen Shot 2021-03-08 at 4.25.30 PM.png">
+
 
 # My Task
 

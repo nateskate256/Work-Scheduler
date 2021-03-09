@@ -36,6 +36,8 @@ textarea{
   border-top: 1px solid white;;
 }
 
+/* past, present, future for timeblocks */
+
 .hour {
   background-color: #ffffff;
   color: #000000;
